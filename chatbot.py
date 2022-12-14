@@ -7,7 +7,7 @@ import tensorflow
 import random
 
 import json
-with open('/content/sample_data/intents.json') as file:
+with open('intents.json') as file:
     data = json.load(file)
 
 words = []
